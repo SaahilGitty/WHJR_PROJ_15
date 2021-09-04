@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--The oldest bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body style="padding-left: 30%; padding-right: 30%;">
+    <a href download="myselfie.png" id="download"></a>
+    <center>
+        <br>
+    <h1>Selfie!
+    </h1>
+    <br>
+    <p>There will be a popup saying "Allow index.html to access your microphone" click <kbd style="">Allow</kbd>.</p>
+    <hr>
+    <label for="cheese">Say "Take a selfie!" to take a selfie!</label>
+    <br>
+    <textarea id="cheese"></textarea>
+    <br>
+    <button onclick="start_function()" class="btn btn-success" id="start">Start</button>
+    <hr>
+    <div id="preview">
+        
+    </div>
+    <div id="result">
+        
+    </div>
+    <a href="" style="display: none;" id="download">Download Selfie</a>
+    </center>
+    <script src="main.js"></script>
+    <script async src="https://drv.tw/inc/wd.js"></script>
+</body>
+</html>
